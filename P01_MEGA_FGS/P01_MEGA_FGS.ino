@@ -204,7 +204,7 @@ void GrapGPS() {
       } 
     else {                                      // DK veya Gun degerlerinden birisi ya da ikisi de degistiyse işlem yapılması lazım
       Serial.println("DAKIKA DEGISTI");
-          String yazilacak = /*imeistr + "," + */Saat + "," + gpsbuffer1.substring(23,50) + "," + VoltajOku() + ",%" + PilYuzdeOku() + ",";
+          String yazilacak = /*imeistr + "," + */Saat + "," + gpsbuffer1.substring(23,42) + "," + VoltajOku() + ",%" + PilYuzdeOku() + ",";
           String dosya_adi = Tarih;
           if (SD_Ekle(dosya_adi, yazilacak)) {              // işlem başarı ise Eski_DK, DK olarak değiştirilir
           Eski_DK = DK;
