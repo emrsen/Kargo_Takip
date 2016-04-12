@@ -1,4 +1,4 @@
-/*
+/* git
   SD card datalogger
 
  This example shows how to log data from three analog sensors
