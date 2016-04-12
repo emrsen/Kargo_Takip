@@ -7,7 +7,7 @@
  ** CLK - pin 13 on Arduino Uno/Duemilanove/Diecimila  ****** MEGA 52
  ** CS - depends on your SD card shield or module.     ****** MEGA 53
      Pin 7 used here **** It was D4for consistency with other Arduino examples
- git test*/
+ git test2*/
 
 
 #include <SoftwareSerial.h>       // FONA serial communication.
